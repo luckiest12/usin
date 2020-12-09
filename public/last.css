@@ -1,0 +1,64 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+h1, p{
+    margin:0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+   
+}
+
+#main {
+    background: url("/public/universe.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Questrial', sans-serif;
+}
+
+#contents{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#contents h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+
+#contents p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height:30px;  
+}
+
+#contents a{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+@media(max-width:769px){
+    #contents h1{    
+        font-size: 50px;
+    }
+    
+    #contents p{
+        font-size: 20px;
+    }
+}
